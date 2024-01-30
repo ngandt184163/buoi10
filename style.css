@@ -1,0 +1,23 @@
+.dssv {
+  border-collapse: collapse;
+}
+
+.max {
+  background-color: red;
+}
+
+.dssv tr:nth-child(2n + 1) {
+  background-color: yellow;
+}
+
+.dssv tr:nth-child(2n) {
+  background-color: aqua;
+}
+
+.dssv tr:first-child {
+  color: blue;
+}
+
+.dssv tr:last-child {
+  color: orange;
+}
